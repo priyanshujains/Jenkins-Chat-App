@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKERHUB_USER = 'priyanshujains'
-        IMAGE_FRONTEND = "${DOCKERHUB_USER}/sb"
-        IMAGE_BACKEND = "${DOCKERHUB_USER}/fr"
+        IMAGE_FRONTEND = "${DOCKERHUB_USER}/fr"
+        IMAGE_BACKEND = "${DOCKERHUB_USER}/sb"
     }
 
     stages {
