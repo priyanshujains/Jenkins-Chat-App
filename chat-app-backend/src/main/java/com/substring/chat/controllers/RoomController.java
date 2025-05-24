@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("http://13.201.75.211:5173")
 public class RoomController {
 
     private RoomRepository roomRepository;
